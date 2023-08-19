@@ -74,12 +74,14 @@ span {
 }
 
 .right-side {
-padding: 0;
+    padding: 0;
+
 }
 
 
 .right-side img {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    filter: sepia(100%) saturate(400%) hue-rotate(210deg) brightness(50%);
 }
 
