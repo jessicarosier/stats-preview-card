@@ -3,27 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Stats preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="css/style.css">
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
+<div class="page-wrapper">
+  <main class="container flex-grow justify-content-center">
+    <section class="row main-row">
+      <div class="column left-side">
+        <h1>Get <span>insights</span> that help your business grow.</h1>
+        <p>
+          Discover the benefits of data analytics and make better decisions regarding revenue customer experience, and overall efficiency.
+        </p>
+        <div class="row stats">
+          <div class="column companies">
+             <p class="first-p">10k+</p>
+             <p class="second-p">companies</p>
+          </div>
+          <div class="column templates">
+             <p class="first-p">314</p>
+             <p class="second-p">templates</p>
+          </div>
+          <div class="column queries">
+             <p class="first-p">12M+</p>
+             <p class="second-p">queries</p>
+          </div>
+        </div>
+      </div>
+      <div class="column right-side">
+        <img src="img/image-header-desktop.jpg" alt="three women working in an office" class="main-image">
+      </div>
+    </section>
+  </main>
+</div>
 
-  Get insights that help your business grow.
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
