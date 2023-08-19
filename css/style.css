@@ -27,56 +27,62 @@ body {
 
 .main-row {
     background: var(--card-dark-desaturated-blue);
-    max-width: 80vw;
-    min-height: 32vh;
-    justify-content: space-between;
-    gap:20px;
+    max-width: 70vw;
+    min-height: 261px;
+    gap: 20px;
     border-radius: 10px;
+    align-items: center;
 }
 
 .left-side {
     justify-content: center;
-    align-items: center;
-    padding:0 20px 0 50px;
-    gap:15px;
+    align-items: start;
+    padding: 0 20px 0 50px;
+    gap: 15px;
 }
 
 .main-row h1 {
     color: var(--main-heading-stats-white);
-    font-size: 30px;
+    font-size: 50px;
 }
+
 span {
     color: var(--accent-soft-violet)
 }
 
-.left-side>p {
-    max-width: 300px;
-    color:var(--main-paragraph-white);
-    font-size: 12px;
+.left-side > p {
+    /*max-width: 300px;*/
+    color: var(--main-paragraph-white);
+    font-size: 18px;
 }
 
 .first-p {
-    color:var(--main-heading-stats-white);
+    color: var(--main-heading-stats-white);
     font-weight: 700;
     font-family: var(--secondary-font);
+    font-size: 25px;
 }
 
 .second-p {
-    color:var(--stat-heading-white);
+    color: var(--stat-heading-white);
     font-family: var(--secondary-font);
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 15px;
+    letter-spacing: 1.5px;
 }
 
 .stats {
-    margin-top:40px
+    margin-top: 40px
 }
 
 .right-side {
-justify-content: center;
+
+
+
 }
 
 img {
-flex-grow: 1 ;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
