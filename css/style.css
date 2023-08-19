@@ -28,10 +28,11 @@ body {
 .main-row {
     background: var(--card-dark-desaturated-blue);
     max-width: 70vw;
-    min-height: 261px;
+    /*min-height: 261px;*/
     gap: 20px;
     border-radius: 10px;
     align-items: center;
+    justify-content: space-between;
 }
 
 .left-side {
@@ -76,12 +77,16 @@ span {
 }
 
 .right-side {
-
-
+    justify-content: center;
+    align-items: center;
 }
 
-img {
+
+.right-side img {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    flex-grow: 1;
+    min-width: 100%;
+    min-height: 100%
 }
 
