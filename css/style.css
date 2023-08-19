@@ -21,7 +21,7 @@ body {
     font-size: var(--font-size);
 }
 
-.container {
+.page-wrapper {
     background: var(--main-very-dark-blue);
 }
 
@@ -76,7 +76,6 @@ span {
 }
 
 .right-side {
-
 
 
 }
