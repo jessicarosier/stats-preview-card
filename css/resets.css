@@ -13,6 +13,10 @@ button {
     cursor: pointer;
 }
 
+cursor {
+    pointer-events: all;
+}
+
 input, input::placeholder {
     font-family: inherit;
 }
