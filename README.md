@@ -37,6 +37,9 @@ I learned about the filter css property and was able to use this to adjust the h
 ### Continued development
 Find a better was to match the image tint.
 
+*fixes: added overlay to image
+*added media query to make responsive to smaller screen sizes
+
 ### Useful resources
 - [MDN web docs CSS filter](https://developer.mozilla.org/en-US/docs/Web/CSS/filter) 
 
